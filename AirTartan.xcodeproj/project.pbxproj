@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9411A25019D8F7C100A545EE /* AirTartanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A24F19D8F7C100A545EE /* AirTartanTests.swift */; };
+		9411A26919D8F7EE00A545EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A25919D8F7EE00A545EE /* AppDelegate.swift */; };
+		9411A26A19D8F7EE00A545EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9411A25A19D8F7EE00A545EE /* GameScene.sks */; };
+		9411A26B19D8F7EE00A545EE /* Startable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A25B19D8F7EE00A545EE /* Startable.swift */; };
+		9411A26C19D8F7EE00A545EE /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A25C19D8F7EE00A545EE /* Rainbow.swift */; };
+		9411A26D19D8F7EE00A545EE /* ParallaxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A25D19D8F7EE00A545EE /* ParallaxNode.swift */; };
+		9411A26E19D8F7EE00A545EE /* Tartan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A25E19D8F7EE00A545EE /* Tartan.swift */; };
+		9411A26F19D8F7EE00A545EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A25F19D8F7EE00A545EE /* GameScene.swift */; };
+		9411A27019D8F7EE00A545EE /* Buildings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A26019D8F7EE00A545EE /* Buildings.swift */; };
+		9411A27119D8F7EE00A545EE /* BuildingPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A26119D8F7EE00A545EE /* BuildingPair.swift */; };
+		9411A27219D8F7EE00A545EE /* Bomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A26219D8F7EE00A545EE /* Bomb.swift */; };
+		9411A27319D8F7EE00A545EE /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A26319D8F7EE00A545EE /* Dog.swift */; };
+		9411A27419D8F7EE00A545EE /* SKPhysicsBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A26419D8F7EE00A545EE /* SKPhysicsBody.swift */; };
+		9411A27519D8F7EE00A545EE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411A26519D8F7EE00A545EE /* GameViewController.swift */; };
+		9411A27719D8F7EE00A545EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9411A26719D8F7EE00A545EE /* Main.storyboard */; };
+		9411A27819D8F7EE00A545EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9411A26819D8F7EE00A545EE /* Images.xcassets */; };
+		94A92B501A43836200F9A963 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A92B4F1A43836200F9A963 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9411A24A19D8F7C100A545EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9411A22819D8F7C000A545EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9411A22F19D8F7C000A545EE;
+			remoteInfo = AirTartan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9411A23019D8F7C000A545EE /* AirTartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTartan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9411A23419D8F7C000A545EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9411A24919D8F7C100A545EE /* AirTartanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTartanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9411A24E19D8F7C100A545EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9411A24F19D8F7C100A545EE /* AirTartanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTartanTests.swift; sourceTree = "<group>"; };
+		9411A25919D8F7EE00A545EE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9411A25A19D8F7EE00A545EE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9411A25B19D8F7EE00A545EE /* Startable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Startable.swift; sourceTree = "<group>"; };
+		9411A25C19D8F7EE00A545EE /* Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
+		9411A25D19D8F7EE00A545EE /* ParallaxNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxNode.swift; sourceTree = "<group>"; };
+		9411A25E19D8F7EE00A545EE /* Tartan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tartan.swift; sourceTree = "<group>"; };
+		9411A25F19D8F7EE00A545EE /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9411A26019D8F7EE00A545EE /* Buildings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buildings.swift; sourceTree = "<group>"; };
+		9411A26119D8F7EE00A545EE /* BuildingPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingPair.swift; sourceTree = "<group>"; };
+		9411A26219D8F7EE00A545EE /* Bomb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bomb.swift; sourceTree = "<group>"; };
+		9411A26319D8F7EE00A545EE /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		9411A26419D8F7EE00A545EE /* SKPhysicsBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPhysicsBody.swift; sourceTree = "<group>"; };
+		9411A26519D8F7EE00A545EE /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9411A26719D8F7EE00A545EE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9411A26819D8F7EE00A545EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94A92B4F1A43836200F9A963 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9411A22D19D8F7C000A545EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9411A24619D8F7C100A545EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9411A22719D8F7C000A545EE = {
+			isa = PBXGroup;
+			children = (
+				9411A23219D8F7C000A545EE /* AirTartan */,
+				9411A24C19D8F7C100A545EE /* AirTartanTests */,
+				9411A23119D8F7C000A545EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9411A23119D8F7C000A545EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9411A23019D8F7C000A545EE /* AirTartan.app */,
+				9411A24919D8F7C100A545EE /* AirTartanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9411A23219D8F7C000A545EE /* AirTartan */ = {
+			isa = PBXGroup;
+			children = (
+				9411A25919D8F7EE00A545EE /* AppDelegate.swift */,
+				9411A25B19D8F7EE00A545EE /* Startable.swift */,
+				9411A25C19D8F7EE00A545EE /* Rainbow.swift */,
+				9411A25D19D8F7EE00A545EE /* ParallaxNode.swift */,
+				9411A25E19D8F7EE00A545EE /* Tartan.swift */,
+				9411A25F19D8F7EE00A545EE /* GameScene.swift */,
+				9411A26019D8F7EE00A545EE /* Buildings.swift */,
+				9411A26119D8F7EE00A545EE /* BuildingPair.swift */,
+				9411A26219D8F7EE00A545EE /* Bomb.swift */,
+				9411A26319D8F7EE00A545EE /* Dog.swift */,
+				9411A26419D8F7EE00A545EE /* SKPhysicsBody.swift */,
+				9411A26519D8F7EE00A545EE /* GameViewController.swift */,
+				9411A25A19D8F7EE00A545EE /* GameScene.sks */,
+				9411A26719D8F7EE00A545EE /* Main.storyboard */,
+				94A92B4F1A43836200F9A963 /* LaunchScreen.xib */,
+				9411A26819D8F7EE00A545EE /* Images.xcassets */,
+				9411A23319D8F7C000A545EE /* Supporting Files */,
+			);
+			path = AirTartan;
+			sourceTree = "<group>";
+		};
+		9411A23319D8F7C000A545EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9411A23419D8F7C000A545EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9411A24C19D8F7C100A545EE /* AirTartanTests */ = {
+			isa = PBXGroup;
+			children = (
+				9411A24F19D8F7C100A545EE /* AirTartanTests.swift */,
+				9411A24D19D8F7C100A545EE /* Supporting Files */,
+			);
+			path = AirTartanTests;
+			sourceTree = "<group>";
+		};
+		9411A24D19D8F7C100A545EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9411A24E19D8F7C100A545EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9411A22F19D8F7C000A545EE /* AirTartan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9411A25319D8F7C100A545EE /* Build configuration list for PBXNativeTarget "AirTartan" */;
+			buildPhases = (
+				9411A22C19D8F7C000A545EE /* Sources */,
+				9411A22D19D8F7C000A545EE /* Frameworks */,
+				9411A22E19D8F7C000A545EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirTartan;
+			productName = AirTartan;
+			productReference = 9411A23019D8F7C000A545EE /* AirTartan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9411A24819D8F7C100A545EE /* AirTartanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9411A25619D8F7C100A545EE /* Build configuration list for PBXNativeTarget "AirTartanTests" */;
+			buildPhases = (
+				9411A24519D8F7C100A545EE /* Sources */,
+				9411A24619D8F7C100A545EE /* Frameworks */,
+				9411A24719D8F7C100A545EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9411A24B19D8F7C100A545EE /* PBXTargetDependency */,
+			);
+			name = AirTartanTests;
+			productName = AirTartanTests;
+			productReference = 9411A24919D8F7C100A545EE /* AirTartanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9411A22819D8F7C000A545EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Air Crew";
+				TargetAttributes = {
+					9411A22F19D8F7C000A545EE = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 9G6ER3MR52;
+					};
+					9411A24819D8F7C100A545EE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 9411A22F19D8F7C000A545EE;
+					};
+				};
+			};
+			buildConfigurationList = 9411A22B19D8F7C000A545EE /* Build configuration list for PBXProject "AirTartan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9411A22719D8F7C000A545EE;
+			productRefGroup = 9411A23119D8F7C000A545EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9411A22F19D8F7C000A545EE /* AirTartan */,
+				9411A24819D8F7C100A545EE /* AirTartanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9411A22E19D8F7C000A545EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A92B501A43836200F9A963 /* LaunchScreen.xib in Resources */,
+				9411A27719D8F7EE00A545EE /* Main.storyboard in Resources */,
+				9411A27819D8F7EE00A545EE /* Images.xcassets in Resources */,
+				9411A26A19D8F7EE00A545EE /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9411A24719D8F7C100A545EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9411A22C19D8F7C000A545EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9411A26F19D8F7EE00A545EE /* GameScene.swift in Sources */,
+				9411A26D19D8F7EE00A545EE /* ParallaxNode.swift in Sources */,
+				9411A27019D8F7EE00A545EE /* Buildings.swift in Sources */,
+				9411A26C19D8F7EE00A545EE /* Rainbow.swift in Sources */,
+				9411A27519D8F7EE00A545EE /* GameViewController.swift in Sources */,
+				9411A26E19D8F7EE00A545EE /* Tartan.swift in Sources */,
+				9411A27419D8F7EE00A545EE /* SKPhysicsBody.swift in Sources */,
+				9411A27219D8F7EE00A545EE /* Bomb.swift in Sources */,
+				9411A26B19D8F7EE00A545EE /* Startable.swift in Sources */,
+				9411A26919D8F7EE00A545EE /* AppDelegate.swift in Sources */,
+				9411A27319D8F7EE00A545EE /* Dog.swift in Sources */,
+				9411A27119D8F7EE00A545EE /* BuildingPair.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9411A24519D8F7C100A545EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9411A25019D8F7C100A545EE /* AirTartanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9411A24B19D8F7C100A545EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9411A22F19D8F7C000A545EE /* AirTartan */;
+			targetProxy = 9411A24A19D8F7C100A545EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9411A25119D8F7C100A545EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9411A25219D8F7C100A545EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9411A25419D8F7C100A545EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AirTartan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9411A25519D8F7C100A545EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AirTartan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9411A25719D8F7C100A545EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirTartanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTartan.app/AirTartan";
+			};
+			name = Debug;
+		};
+		9411A25819D8F7C100A545EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirTartanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTartan.app/AirTartan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9411A22B19D8F7C000A545EE /* Build configuration list for PBXProject "AirTartan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9411A25119D8F7C100A545EE /* Debug */,
+				9411A25219D8F7C100A545EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9411A25319D8F7C100A545EE /* Build configuration list for PBXNativeTarget "AirTartan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9411A25419D8F7C100A545EE /* Debug */,
+				9411A25519D8F7C100A545EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9411A25619D8F7C100A545EE /* Build configuration list for PBXNativeTarget "AirTartanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9411A25719D8F7C100A545EE /* Debug */,
+				9411A25819D8F7C100A545EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9411A22819D8F7C000A545EE /* Project object */;
+}
